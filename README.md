@@ -1,1 +1,0 @@
-# architectum-test
