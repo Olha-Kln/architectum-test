@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon"  href="images/cover/logo2.png">
+
+
+   	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.min.css">
+	
+	<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="libs/jquery/jquery-3.6.1.js"></script>
+		<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+
+		<script src="libs/bxslider/jquery.bxslider.min.js"></script>
+		<script src="libs/bxslider/jquery.fitvids.js"></script>
+		<script src="js/script.js"></script>
+
+	
+		<link href="fonts/css/fontawesome.css" rel="stylesheet">
+  		<link href="fonts/css/brands.css" rel="stylesheet">
+  		<link href="fonts/css/solid.css" rel="stylesheet">
+  		<link href="fonts/css/solid.min.css" rel="stylesheet">
+  		
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<title>Islamic</title>
+
+
+</head>
+<body>
+<?php include "nav-menu.php" ?>
+	
+	
+	<div class="container-1">
+       <div class="box-1">
+       	<h1 class="islamic-pic">Ісламська архітектура</h1>
+       		<img src="images/arch-styles/islamic/img-sam1.jpg">                
+    
+       </div><!-- header -->
+       <div class="box-2">
+       	<article>
+         	<h2>Історія</h2>    	
+
+		<p>Ісламська архітектура відноситься до стилю архітектури, який був створений як фізичне втілення принципів ісламу мусульманами (людьми ісламської віри) у 7 столітті. Його традиції продовжуються і донині. Будівля, яка найчастіше асоціюється з ісламською архітектурою, - це мечеть, або мусульманське місце поклоніння.
+		Але ісламська архітектура охоплює як світські, так і релігійні споруди. Він включає в себе все: від великих мечетей, фортець, палаців, гробниць, шкіл та інших громадських будівель до невеликих фонтанів, громадських лазень і домашніх споруд.
+		</p>
+		<p>Існуючі стилі, включаючи римську, візантійську та перську архітектуру, вплинули на ранню ісламську архітектуру. Оскільки ісламська архітектура поширилася з Близького Сходу по всьому світу, зокрема до Азії, на неї також вплинула архітектура Китаю та Моголів.
+		Північноафриканські мусульмани, які завоювали Піренейський півострів і багато навколишніх островів Західного Середземномор’я, принесли архітектуру під впливом ісламу в частину Європи. Багато яскравих прикладів цього стилю є в Іспанії. У середині XIX століття рух за відродження включав роботи каталонського архітектора Антоні Гауді, на якого сильно вплинув ісламський стиль в Іспанії.</p>
+		</article>
+		
+       </div>
+     
+       <div class="box-3"> 
+       <article>	 
+<p>
+	<h2>Характерні риси</h2>
+	<ul class="ul-definition">
+		<li>Мінарети. Мінарети — це високі шпилі з внутрішніми сходами та невеликими вікнами. Вони вражають на вигляд і виконують невід'ємну функцію, закликаючи мусульман до молитви п'ять разів на день.</li>
+		<li>Куполи. Ісламська архітектура характеризується куполами, розміщеними на конструкціях, які називаються підвісами, що дає змогу встановити круглий купол на прямокутну чи квадратну кімнату. Підвіски часто прикрашають мозаїчною плиткою.</li>
+		<li>Сховище Мукарнас. Схожі на стільниковий або сталактитовий візерунок, витончені склепіння muqarnas додають текстурний і монохроматичний штрих до стелі інтер’єрів, які часто оздоблені складною та барвистою плиткою.</li>
+		<li>Арки. Підковоподібні (або замкова щілина), загострені (попередник готики), фестончасті (або багатошарові) і огі (багатовигнуті) арки поширені в ісламській архітектурі.</li>
+		<li>Декоративні деталі. Ісламське оздоблення часто включає різнокольорову мозаїчну плитку з повторюваними візерунками та геометричними або рослинними мотивами та візерунками, такими як арабески. Він також зазвичай включає використання сценаріїв арабської каліграфії, таких як уривки з Корану.</li>
+		<li>Машрабія (шанашил). Іншою вражаючою особливістю є машрабія, або дерев’яна решітка, яка використовується на вікнах для приватності та контролю клімату. Він також іноді використовується в сучасному контексті як суто декоративний елемент або варіант для поділу внутрішнього простору.</li>
+		<li>Зовнішні елементи. Ісламська архітектура часто має сади, оточені стінами внутрішні дворики, відкриті зали з дахом, що підтримується колонами, і склепіння.</li>
+
+	</ul>
+	</p>
+	<p class="links-p">
+		<br>
+	<a href="https://www.thespruce.com/what-is-islamic-architecture-5120474"> <br> Джерело <br>What Is Islamic Architecture? (thespruce.com)</a>
+</p> 
+</article>
+       </div>
+       <!-- slider -->
+       	<div class="box-4">
+		       	<div class="slider">	
+					       	<div><img src="images/arch-styles/islamic/img-sam1.jpg" title="Мавзолей Гур-Емір (узб. Go'ri Amir «Гробниця еміра») - Самарканд, Узбекістан"></div>
+					        <div><img src="images/arch-styles/islamic/img-oae-3-1.jpg" title="Мечеть шейха Заїда (Sheikh Zayed Grand Mosque) - Абу-Дабі, ОАЕ"></div>
+					        <div><img src="images/arch-styles/islamic/img-marocco.jpg" title="Медресе Бен Юсефа (Медресе Бін Юсуфа або Ібн Юсуфа)- ісламське медресе (коледж) - Марракеш, Марокко."></div>
+					        <div><img src="images/arch-styles/islamic/img-turk-1.jpg" title="Мечеть Селіміє (тур. Selimiye Camii) - Едірне, Турція"></div>
+					        <div><img src="images/arch-styles/islamic/img-moscue-2-1.jpg" title="Мечеть Хасана II (фр. Grande Mosquée Hassan II - Касабланка, Марокко"></div>
+					        <div><img src="images/arch-styles/islamic/img-sam2.jpg" title="Медресе Тілля-Карі (узб. Tillа Qori madrasasi — Позолочене медресе) - Самарканд, Узбекістан"></div>
+		        		</div>
+
+       			</div>    
+       
+
+	</div>
+
+			
+
+
+</body>
+
+</html>

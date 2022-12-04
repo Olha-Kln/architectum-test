@@ -1,0 +1,1054 @@
+/* скидання стилів браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,  abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/* кінець коду скидання стилів браузера */
+
+/*Стилі для Меню*/
+
+.mainNav *{
+ margin: 0;
+ padding: 0; 
+}
+
+.mainNav ul,  
+.mainNav ol{
+ list-style: none;
+}    
+
+.mainNav > ul{
+ display: flex;
+ justify-content: center;
+}
+
+.nav > li a
+{
+  text-decoration: none;
+  color: #EFECE7;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 22px;
+  list-style: none;  
+  display: block;
+}
+
+.nav li a:hover {
+  
+  color: #CDCAC5;
+  font-size: 24px;  
+  box-shadow: 0 10px 6px -8px #EFECE7;
+  -webkit-transition: -webkit-transform .1s, box-shadow 0.1s ease-out.1s;
+  transition: transform .1s, box-shadow 0.1s ease-out.1s;
+   
+}    
+
+
+
+.nav{
+  box-sizing: border-box;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;  
+  padding: 28px 0px 25px;
+  gap:20px; 
+  /*position: absolute;*/
+  width: 100%;
+  height: 70px;  
+  top: 0;
+  background: #394C60;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+ font-family: 'Fira Sans Condensed', sans-serif;
+ font-size: 22px;
+ color:#EFECE7;
+
+}
+
+
+.nav li ul{  
+  background-color: #394C60;  
+  height: 325px;
+  min-width: 150px;
+  position:relative;  
+  left:5px;
+
+  display: none;
+}
+
+
+.logotype{
+
+  margin-right: 150px;
+  margin-top:-4px;
+  font-size: 30px;
+  color:#EFECE7;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+.logo-img{
+
+  margin-top: -5px;
+  filter: drop-shadow(4px 10px 14px #000);
+}
+
+
+
+
+.nav li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}    
+.nav li > ul li a
+{
+  padding: 5px;
+  text-transform: none;
+  font-size: 20px;  
+}
+
+.nav li:hover>ul{
+ 
+ display: block;
+  
+ font-size: 20px;
+}    
+
+
+
+
+/*grid*/
+
+/*#container {
+  width: 100%;
+  height: 100%;
+  background-color: #800020;
+  display: grid;
+  grid-template-rows: 70px 1200px 70px; 
+  grid-template-columns: 1fr 0.7fr;
+  gap: 10px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}*/
+
+/*header {
+
+  grid-column: 1 / 3;
+  grid-row: 1 / 2; 
+  margin-left: 20px;
+  margin-top: 10px;
+}*/
+
+h1{  
+
+  font-family: 'Lora', sans-serif;
+  font-size: 44px;
+  text-align: center;  
+  color:#6E7F91;  
+  margin:0;
+  padding:0;  
+  text-shadow: 0px 4px 14px #6E7F91;
+  text-shadow: 3px 3px 18px rgba(150, 150, 150, 1);
+}
+
+
+
+
+ .div-about{
+  
+  margin: 20px;
+  font-family: 'Lora', sans-serif;
+  font-size: 18px;
+}
+
+.ul-about li {
+  padding-left: 2rem;
+  background-image: url(images/star-4.png);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  padding-bottom: 2px; 
+  list-style-position: outside;
+
+}
+
+
+
+.div-about h3{
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+p {
+    font-family: 'Lora', sans-serif;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding:0;   
+    text-indent: 2.5em;
+    text-align: justify;
+  }
+
+
+  .links-p {
+  font-family: 'Fira Sans Condensed', serif;
+  font-size:16px;
+  font-weight: lighter;
+  text-indent: 2.5em;
+  margin-left: 25px;
+  }
+
+
+
+body{
+   background-color: #EFECE7;
+}
+/*Стили для грід контейнера*/
+
+
+[class^="box-"] {
+  /*background-color: skyblue;*/  
+  display: grid;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container-1 {
+  display: grid;
+  height: 100vh;
+  gap: 15px; 
+  width:1400px; 
+  justify-items:center;
+  justify-self: center;
+  justify-content: center;
+ 
+  
+
+  grid-template-columns: 400px 200px;
+  grid-template-rows: 700px 700px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: 100px;
+  margin-right: 20px;
+  
+  
+}
+
+
+.box-1{
+    grid-column: 1/4;
+    grid-row: 1/2;  
+   justify-content: center;
+   align-items: end;
+  
+   
+}
+
+.box-1 img{
+width: 795px; height: 530px; object-fit: cover;
+margin: 4px;
+}
+
+.box-2{
+  grid-column: 1/3;
+  grid-row: 2/3;
+
+  
+}
+
+.box-3{
+  
+  grid-column: 3/4;
+  grid-row: 2/3;
+  justify-items:space-around;
+  
+}
+
+
+.ul-definition li {
+  padding-left: 2rem; 
+  list-style-image: url(images/star-4.png);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;  
+  list-style-position: inside;
+  font-family: 'Lora', sans-serif;
+  padding-right: 15px;
+  text-align: justify;
+  font-size: 18px;
+  padding: 0;
+  margin-right: 15px;
+
+}
+
+ .links-p a{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size:16px;
+  font-weight: lighter;
+  text-indent: 4em;
+  margin-left: 50px;
+
+  }
+
+
+.box-4{
+  grid-column: 1/4;
+  grid-row: 5/6;
+  justify-content: start;
+  margin-left: 0px;
+  /*margin-right: 50px;*/
+}
+
+
+
+blockquote p{
+    padding: 15px;
+    font-family: 'Lora', sans-serif;    
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: right;    
+}
+figcaption{
+  padding-right: 15px;
+  text-align: right;
+}
+
+
+/*Стилі для вертикального меню*/
+.mainNav [type="checkbox"]{
+ display: none;
+}
+
+.mainNav label.toggleMenu{
+ background: #6E7F91;
+ display: none; 
+ padding: 15px 40px; 
+ cursor: pointer;
+ position: relative;
+ color: #EFECE7;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size:16px;
+  font-weight: lighter;
+}    
+
+.mainNav label.toggleMenu .logo{
+ position: absolute;
+ top: 3px;
+ left: 50px;
+ font-size: 25px;
+ color: #EFECE7;
+}
+
+ 
+
+/*Стилі для адаптації вертикального меню */
+@media all and (max-width: 800px) {
+ .mainNav {
+  /*overflow: hidden;*/
+ }
+
+ .mainNav {
+  display: block;
+  position: fixed; 
+ }
+.mainNav .nav{
+  display: none;
+}
+
+.mainNav label.toggleMenu{
+ display: block;
+}  
+
+input.toggleMenu:checked + label.toggleMenu{
+ background: #394C60;
+ color: #CDCAC5;
+}
+
+input.toggleMenu:checked ~ .nav{
+ display: block; 
+ background-color: #394C60; 
+ /*position: absolute;*/
+ position: fixed; 
+ height: 180px;
+ /*width: 100%;*/
+ padding-top: 5px;
+ padding-left:50px;
+
+}
+.logotype{
+  display:none;
+}
+
+
+
+}
+
+
+/*.container-1 {
+  display: grid;
+  height: 100vh;
+  gap: 5px; 
+  width:1400px; 
+  justify-items:center;
+  justify-self: center;
+  grid-template-columns: 400px 200px;
+  grid-template-rows: 700px 700px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: 150px;  
+}
+*/
+
+
+/*Стилі для адаптації Grid контейнера*/
+
+
+
+@media all and (max-width: 800px){
+
+.container-1{
+  margin-left:20px;
+  margin-top: 20px;  
+  grid-template-columns: 400px auto 400px ;
+  grid-template-rows: 400px 600px 700px;
+  width:795px;
+  justify-content: start;
+  
+  
+}
+
+.box-1,.box-2,.box-3,
+.box-4,.box-5
+{
+  /*margin-left: 15px;*/
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+  .box-1{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  justify-content: right;
+  align-items: right;
+  
+}
+
+.box-1 img{
+/*width: 795px; height: 530px; object-fit: cover;*/
+width: 398px; height: 265px; object-fit: cover;
+
+
+}
+
+.box-1 h1{
+  
+  font-family: 'Lora', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+/*B*/
+.box-2{
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+/*C*/
+.box-3{
+  grid-column: 1/3;
+  grid-row: 3/5;  
+}
+
+.box-2, .box-3 p {
+    font-family: 'Lora', sans-serif;    
+    text-indent: 2.5em;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+.box-2 li{
+  font-size: 14px;
+}
+
+
+.ul-definition li {
+  padding-left: 2rem;  
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;  
+  list-style-position: inside;
+  font-family: 'Lora', sans-serif;
+  padding-right: 15px;
+  text-align: justify;
+  font-size: 14px; 
+
+}
+
+.links-p a{
+  font-size:10px;
+  margin-top:0;
+  margin-left: 50px;
+  text-indent: 3em;
+}
+
+
+  /*.links-p{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size:12px;
+  font-weight: lighter;
+  text-indent: 0;
+    }*/
+
+
+.box-4{
+  grid-column: 1/3;
+  grid-row: 7/8;
+}
+
+
+
+
+}
+
+/*Стилі для типів архітектури*/
+h2 {
+font-family: 'Lora', sans-serif;
+font-size: 20px;
+text-align: left;
+padding-top:15px;
+padding-bottom: 15px;
+padding-left:15px;
+}
+
+
+
+ol li{
+  padding-left: 2rem; 
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;  
+  list-style-position: inside;
+  font-family: 'Lora', sans-serif;
+  padding-right: 15px;
+  text-align: justify;
+  font-size: 18px;  
+}
+
+
+
+/*Стиля для слайдера bx-slider*/
+
+.slider img { width: 800px; height: 500px; object-fit: cover; }
+
+.bx-viewport{
+  background:#EFECE7;
+
+}
+
+.bx-wrapper{
+  background:#EFECE7;  
+  border:#EFECE7;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+/*Стилі для сторінки architects.php flex*/
+
+
+
+
+/*.gallery-architects{
+  display:flex;
+  flex-direction: row;  
+  position:relative;
+  
+    
+  justify-content: space-around;
+  align-content: stretch;
+  width: 80%;
+  height: 80vh; 
+  margin-top: 50px;
+ flex-wrap: wrap;
+ align-items: center;
+ overflow: auto;
+ 
+ 
+}
+
+.gallery-architects{
+  display: flex;
+   flex-direction: column;
+  flex-flow: column wrap;
+  align-content: space-between;
+  position:relative;
+  height: 600px;  
+  overflow: scroll;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.gallery-architects figure{
+  display: inline-block;  
+  width: 225px;
+  height:158px;
+  margin: 25px;  
+  padding:15px;
+ 
+}*/
+
+
+
+/*
+.g {
+
+  
+  width: 225px;
+  height:158px;  
+
+  margin: 25px;  
+  padding:25px;
+
+}*/
+
+
+
+
+
+
+
+
+figure img {
+  width: 270px;
+  height: 180px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+figure:hover img{
+  width: 297px;
+  height: 198px; 
+}
+
+
+
+
+.gallery-architects figcaption{
+  position: relative;
+  width: 260px;
+  height: 140px;  
+  background-color:#6E7F91;
+  /* Сверху | Справа | Снизу | Слева */  
+  padding: 0.2% 0% 2.5% 2.6%;
+  margin:0 auto;
+  font-family: 'Lora', serif;  
+  font-size: .9em;
+  /*font-size: 16px;*/
+  text-align: start;
+  color: white;
+  border-radius: 0px 0px 15px 15px;
+  -webkit-box-shadow: 1px 10px 19.5px 0 #394c60;
+  -moz-box-shadow: 1px 10px 19.5px 0 #394c60;
+  box-shadow: 1px 10px 19.5px 0 #394c60;  
+  background: #6E7F91;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid #394C60;
+
+  background: rgba(57,76,96,0.6);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+border: 1px solid rgba(57,76,96,0.3);
+}
+
+
+
+
+.gallery-architects img { 
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+    border-radius:15px;
+     }
+
+
+
+
+.body-architects{
+
+  background-image: url(images/cover/img-arch.jpg);
+  
+  background-repeat: no-repeat;
+ -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   /* height: 100%;*/    
+    overflow: hidden;   
+    position:relative;
+    z-index:30;
+    width: 100%;
+  height: auto;
+}
+
+
+
+.mainNav{
+  position:relative;
+  z-index:50;
+}
+
+
+
+
+
+/*Адаптація сторінки Architects */
+
+/*@media (max-width: 800px) {
+
+  .gallery-architects {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    align-content: space-between;
+    justify-content: center;    
+    overflow: scroll;
+    height: 2000px;
+    
+  }
+}
+
+.g
+{
+  flex: 100%;
+    max-width: 100%;
+    display: row;
+}*/
+
+
+.quote {
+  padding:300px;
+
+  font-size: 44px;
+  font-family: 'Arial' sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+/*Стилі для сторінки architects - grid розмітка
+*/
+[class^="g-"] {
+ /* background-color: skyblue;*/
+  
+  display: grid;
+  place-items: start;
+
+}
+
+
+.gallery-architects {
+  display: grid;
+  grid-auto-flow: column;  
+  margin-left:400px;
+  margin-top:30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1.5fr 1.5fr 1.5fr 0.5fr 0.5fr;
+  
+  gap: 20px 20px; 
+  grid-template-areas: 
+    "A B C"    
+    "D E F"    
+    ". . . ";
+  width: 1200px;
+  height: 100vh;
+  
+  justify-content: space-between;
+  /*align-content: end;*/
+  overflow: scroll;
+
+}
+
+
+
+.g-1 {
+  grid-area: A;
+   
+}
+.g-2 {
+  grid-area: B;
+}
+.g-3 {
+  grid-area: C;
+}
+
+.g-4 {
+  grid-area: D;
+}
+.g-5 {
+  grid-area: E;
+}
+.g-6 {
+  grid-area: F;
+}
+
+
+
+/*figure figcaption{
+  display: none;
+}
+
+figure:hover figcaption
+{
+  display: block;
+
+}*/
+
+
+[class^="g-"]  figcaption{
+  display: none;
+}
+
+[class^="g-"] :hover figcaption
+{
+  display: block;
+
+}
+
+
+
+.arch-h1{
+  margin-top:80px;
+}
+
+/**/
+
+/*Адаптація сторінки Architects */
+@media all and (max-width: 800px)
+
+{
+
+.gallery-architects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(6, 400px);
+
+
+  /*grid-template-columns: 1fr; 
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr; */
+  gap: 2px 2px;
+  margin-left:15px;
+  justify-content: start; 
+  justify-items: stretch;
+  width: 300px;  
+  height: 800px;
+ 
+  grid-template-areas: 
+    "A"
+    "B"
+    "C"
+    "D"
+    "E"
+    "F"
+    "."
+    ".";
+
+
+   /*  width: auto;  
+    height: 70%;*/
+
+    overflow: scroll; 
+
+}
+
+/*figcaption{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+
+}*/
+
+figure figcaption{
+  display: block;
+}
+
+figure:hover figcaption
+{
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+
+}
+
+.arch-h1{
+  margin-top:40px;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 34px;
+}
+
+[class^="g-"] {
+  /*background-color: skyblue;*/
+  
+  display: column;
+  place-items: start;
+  margin:0;
+
+}
+
+[class^="g-"]  figcaption{
+  display: block;
+  padding: 2px;
+  margin: 0;
+  font-size: 12px;  
+}
+
+/*[class^="g-"] :hover figcaption
+{
+  display: block;
+
+}*/
+
+
+
+
+
+}
+
+
+
+
+  /*.gallery-architects {
+
+    display: grid;
+    
+    align-content: space-between;
+    justify-content: center;    
+    overflow: scroll;
+    height: 2000px;
+    
+  }*/
+
+
+
+
+
+
+
+
+/*.g
+{
+  flex: 100%;
+    max-width: 100%;
+    display: row;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+/*Стилі для футера*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #394C60;
+    color: #EFECE7;
+    font-family: 'Fira Sans Condensed', sans-serif;    
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:20px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+
+
+
+
+/*Адаптація футера*/
+
+
+@media all and (max-width: 800px){
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width:795px;
+  flex-wrap: wrap;
+  flex-grow: 0;
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon"  href="images/cover/logo2.png">
+
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.min.css">
+	
+	<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="libs/jquery/jquery-3.6.1.js"></script>
+		<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+
+		<script src="libs/bxslider/jquery.bxslider.min.js"></script>
+		<script src="libs/bxslider/jquery.fitvids.js"></script>
+		<script src="js/script.js"></script>
+
+
+	
+		<link href="fonts/css/fontawesome.css" rel="stylesheet">
+  		<link href="fonts/css/brands.css" rel="stylesheet">
+  		<link href="fonts/css/solid.css" rel="stylesheet">
+  		<link href="fonts/css/solid.min.css" rel="stylesheet">  		
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<title>Parametric</title>
+
+
+</head>
+<body>
+<?php include "nav-menu.php" ?>
+	
+
+	 
+	
+	<div class="container-1">
+       <div class="box-1">
+       	<h1 class="parametr-pic">Параметризм</h1>
+       	<img src="images/arch-styles/parametric/img-Broad-3.jpg">             
+    
+       </div>
+       <div class="box-2">
+       	<article>
+       	<h2>Історія</h2>    	
+
+				
+		<p>Параметричне проектування можна визначити як уніфікацію складності та різноманітності, отже, відкидаючи однорідні та традиційні техніки будівництва. Параметрична архітектура – це спосіб проектування, який включає в себе урбанізм, дизайн інтер’єру та навіть інкорпоровану моду для створення архітектурного дива.
+
+		Ідея полягає в тому, що всі елементи дизайну взаємозалежні, адаптовані, а іноді навіть контрастують з навколишнім середовищем. Параметрична архітектура — це перекіс у бік комп’ютеризованих алгоритмічних процесів проектування, які допомогли втілити в життя інноваційні проекти. Параметрична архітектура допомогла багатьом архітекторам і дизайнерам створити чудові проекти, які були можливими раніше. Параметрична архітектура не просто стала новою функцією в цій галузі, але також стала способом вираження.
+		</p>
+		<p>Вперше було відомо, що параметрична архітектура використовувалася в перевернутій моделі церков за проектом Антоніо Гауді. Церква Colònia Güell була створена з використанням моделі струн, зважених разом із дробом для птахів, щоб створити щільні склепінчасті стелі та арки. Положення тягарців або довжину ниток можна було регулювати, що могло допомогти змінити форму кожної арки та направляти арки, з’єднані з нею. Антоніо Гауді використовував дзеркало на нижній частині моделі, щоб побачити, як буде виглядати модель у перевернутому стані.
+				Термін параметричний походить з математики, але все ще залишається дивним, коли дизайнери та архітектори почали використовувати це слово.
+				</p>			
+		
+		</article>
+
+		
+       </div>
+      
+       <div class="box-3">
+       	<article>
+       <h2>Характерні риси</h2>       	 
+	<p>	
+		<ul class="ul-definition">
+			<li>Поєднання складності та різноманітності, таким чином відкидаючи однорідний утилітаризм</li>
+			<li>Спільні пріоритети, пов’язані з урбанізмом, дизайном інтер’єру, архітектурним дивом і навіть модою</li>
+			<li>Ідея, що всі елементи дизайну взаємозалежні та адаптовані</li>
+			<li>Перекіс у бік комп’ютеризованих алгоритмічних процесів проектування</li>
+			
+		</ul>
+		<p class="links-p">
+					<br>
+				<a href="https://www.autodesk.com/products/fusion-360/blog/parametric-design-architecture-shaping-industry"> <br> Джерело <br>What Is Parametric Design in Architecture? - Fusion 360 Blog (autodesk.com)</a>
+				</p> 
+	</p>
+	</article>
+       </div><!-- slider -->
+       			<div class="box-4">       				
+				      <div class="slider">
+				        <div><img src="images/arch-styles/parametric/img-Broad-1-1.jpg" title="Музей сучасного мистецтва Broad - Лос-Анджелес, США"></div>
+				        <div><img src="images/arch-styles/parametric/img-col-2.jpg" title="Крипта Колонії Гуеля (ісп. Cripta de la Colonia Güell) - Колонія Гуель, Санта-Колома-де-Сервельо, Іспанія"></div>
+				        <div><img src="images/arch-styles/parametric/img-galaxy-soho-1.jpg" title="Міський комплекс - Galaxy SOHO - Пекін, Китай"></div>
+				        <div><img src="images/arch-styles/parametric/img-wave-2-2.jpg" title="Виставковий зал Shimao - The Wave Showroom Shimao - Тяньцзінь, Китай"></div>
+				        <div><img src="images/arch-styles/parametric/img-walt-1.jpg" title="Концертний зал Уолт-Дісней - Лос-Анджелес, США"></div>
+				        <div><img src="images/arch-styles/parametric/img-sou-1-1.jpg" title="Музей містецтв Soumaya - Мехіко, Мексика"></div>      
+				    </div>
+  				</div>       			
+
+
+	</div>	
+
+
+</body>
+</html>

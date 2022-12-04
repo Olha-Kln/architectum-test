@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon"  href="images/cover/logo2.png">
+
+
+   <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.min.css">
+	
+	<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="libs/jquery/jquery-3.6.1.js"></script>
+		<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+
+		<script src="libs/bxslider/jquery.bxslider.min.js"></script>
+		<script src="libs/bxslider/jquery.fitvids.js"></script>
+		<script src="js/script.js"></script>
+
+
+
+
+
+
+	
+		<link href="fonts/css/fontawesome.css" rel="stylesheet">
+  		<link href="fonts/css/brands.css" rel="stylesheet">
+  		<link href="fonts/css/solid.css" rel="stylesheet">
+  		<link href="fonts/css/solid.min.css" rel="stylesheet">
+  		
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<title>Baroque</title>
+
+
+</head>
+<body>
+<?php include "nav-menu.php" ?>
+	
+	
+	<div class="container-1">
+       <div class="box-1">
+       	<h1 class="islamic-pic">Бароко</h1>
+       		<img src="images/arch-styles/baroque/img-trevi1.jpg">                
+    
+       </div><!-- header -->
+       <div class="box-2">
+       	<article>
+         	<h2>Історія</h2>    	
+
+		<p>	Архітектура бароко зародилася в Італії. Загалом архітектура бароко розвивалася у відповідь на  бурхливий період, який почався в 16 столітті. Влада хотіла використати архітектуру та мистецтво як спосіб продемонструвати силу, багатство та видатність. Ніде це не так помітно, як у реакції католицької церкви на протестантську Реформацію.
+			Протягом цього часу релігійні лідери могли вплинути на культуру та форми мистецтва, які стали відомими. Для католицької церкви найважливішим способом зберегти цей вплив було створення грандіозних церков і соборів.
+		</p>
+		<p>
+			Замовлені художники та архітектори почали відроджувати ренесансні поняття краси та реалізму, тільки цього разу в ще більш вишуканій та екстравагантній формі. У період бароко художники створили кілька нових технік, які мали на меті викликати емоції та лояльність. Потім стиль поширився по Європі та Південній Америці.</p>
+		<p>
+			Після того, як Папа Римський та інші католицькі правителі почали будівництво, стиль швидко поширився по всій Європі та Південній Америці через колонізацію. У Північній Америці не вистачає барокової архітектури, оскільки в той час континент лише колонізувався.</p>
+		<p>
+			Архітектура бароко має тонкі відмінності залежно від країни. Коли стиль бароко став популярним, місцевості змінили основні характеристики відповідно до свого порядку денного та способу життя. У більшості випадків будівлі сильно декоровані та включають елементи, які здаються незвичайними та навіть незавершеними.
+			
+		</p>
+</p>
+		</article>
+		
+       </div>
+      
+       <div class="box-3"> 
+       <article>	 
+<p>
+	<h2>Характерні риси</h2>
+	<ul class="ul-definition">
+		<li>Складні деталі.
+		Безумовно, відмінною рисою архітектури бароко є використання складних деталей. Оскільки будівлі в стилі бароко мали надихати користувачів, вони часто містили пишну та старанну кількість деталей. Вони варіюються від барокових скульптур і фресок до майстерно різьблених фризів, карнизів і рельєфів.</li>
+		<li>Складна геометрія.
+Ще одна важлива еволюція в архітектурі бароко — використання складної геометрії. Будинки в стилі бароко часто використовують овали та еліпси замість кіл.</li>
+		<li>Розкішні матеріали.
+Архітектура бароко використовує широкий спектр розкішних і екстравагантних матеріалів. Сусальне золото отримало широке застосування разом із вишуканим декоративним мармуром різних кольорів. </li>
+		<li>Елементи класичної архітектури.
+Як і багато інших форм архітектури, барокові будівлі запозичили багато елементів дизайну з давніх споруд греків і римлян. До них відносяться фронтони, круглі арки та декоративні фризи.</li>
+		<li>Яскраві кольори.
+Яскраві кольори є ще одним об’єднуючим елементом архітектури бароко. Багато барокових будівель мають фасади яскравих пастельних кольорів, і це особливо помітно в таких країнах, як Австрія, Польща та Чехія. </li>
+		<li>Барокова скульптура.
+Барокова скульптура містить живі анімовані фігури, повні руху. </li>
+	</ul>
+	<br>
+	</p>
+
+	<p class="links-p">
+       		
+       		<br>
+
+       		<a href="https://architectureofcities.com/baroque-architecture"> <br> Джерело <br>Top 25 Examples of Baroque Architecture - Architecture of Cities</a><br>  		
+       	
+       		
+       	</p>
+
+</article>
+       </div><!-- photo --> <!-- slider -->
+       			<div class="box-4">
+       			<div class="slider">	
+			       	<div><img src="images/arch-styles/baroque/img-versalle-2-2.jpg" title="Версальський палац або Версаль (фр. Château de Versailles) — Версаль, Франція"></div>
+			        <div><img src="images/arch-styles/baroque/img-st-peter-1.jpg" title="Площа Святого Петра, або П'яцца Сан П'єтро (італ. Piazza San Pietro) — Ватикан, Ватикан"></div>
+			        <div><img src="images/arch-styles/baroque/img-st-paul-1.jpg" title="Собор Святого Павла (англ. St Paul's Cathedral) — Лондон, Англія "></div>
+			        <div><img src="images/arch-styles/baroque/img-zwinger-palace-1.jpg" title="Дрезденський Цвінгер (нім. Zwinger) архітектурний комплекс палацових будівель — Дрезден, Німеччина"></div>
+			        <div><img src="images/arch-styles/baroque/img-karl.jpg" title="Собор Святого Карла Борромея (нім. Wiener Karlskirche) — Віден, Австрія"></div>
+			        <div><img src="images/arch-styles/baroque/img-trevi-2.jpg" title="Фонтан Треві (італ. Fontana di Trevi) — Рим, Італія"></div>
+        		</div>
+
+
+
+
+
+       			</div>
+	   				
+
+
+
+	</div>
+
+			
+
+
+</body>
+
+
+</html>

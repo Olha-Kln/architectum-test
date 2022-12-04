@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon"  href="images/cover/logo2.png">
+
+
+   <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.min.css">
+	
+	<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="libs/jquery/jquery-3.6.1.js"></script>
+		<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+
+		<script src="libs/bxslider/jquery.bxslider.min.js"></script>
+		<script src="libs/bxslider/jquery.fitvids.js"></script>
+		<script src="js/script.js"></script>
+
+
+	
+		<link href="fonts/css/fontawesome.css" rel="stylesheet">
+  		<link href="fonts/css/brands.css" rel="stylesheet">
+  		<link href="fonts/css/solid.css" rel="stylesheet">
+  		<link href="fonts/css/solid.min.css" rel="stylesheet">
+  		
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<title>Futurism</title>
+
+
+</head>
+<body>
+<?php include "nav-menu.php" ?>
+	
+	
+	<div class="container-1">
+       <div class="box-1">
+       	<h1 class="islamic-pic">Футурізм</h1>
+       		<img src="images/arch-styles/futurism/img-museum-valensia-1.jpg">                
+    
+       </div><!-- header -->
+       <div class="box-2">
+       	<article>
+         	<h2>Історія</h2>    	
+
+		<p>Футуристичний дизайн спочатку виник у 1900-х роках  процвітав у царинах мистецтва та літератури в Італії, прагнучи відобразити відчуття минулого, сьогодення та майбутнього одночасно. Італійський художник Філіппо Томмазо Марінетті, розпочав футуристичний рух публікацією свого Футуристичного маніфесту в 1909 році. Марінетті виступав за відхід від традицій і прийняття сучасності. Філософія руху футуризму полягала в протесті проти статус-кво. Цей рух розглядався як дисципліна, яка досліджує все про майбутнє, починаючи від психологічної та соціологічної точок зору до технологічної та екологічної точок зору.</p>
+		<p>
+		Метою футуристичного дизайну є створення гуманного, стійкого та прогресивного майбутнього.
+		Ця концепція очевидна в області футуристичного дизайну будівель у передових сучасних містах, які повністю прийняли та продемонстрували як технології, так і екологічність у своїх футуристичних хмарочосах і житлових комплексах. Плинність і динамізм форми є одними з ключових характеристик архітектури футуризму. До футуристичного руху для дизайну були характерні чіткі лінії та прямокутні або квадратні форми.
+		Футуристичні проекти будівель включали незвичайні та гострі кути, куполи та трикутники. Цей стиль, який включає в себе структурні компоненти з навколишнього середовища, підкреслює відчуття зв’язку структур з їх рухливими характеристиками</p>
+		
+
+</p>
+		</article>
+		
+       </div>
+      
+       <div class="box-3"> 
+       <article>	 
+<p>
+	<h2>Характерні риси</h2>
+	<ul class="ul-definition">
+		<li> Чисті лінії. Футуризм характеризується чіткими лініями з мінімальною орієнтацією та гладкими однорідними поверхнями.</li>
+		<li>Використання скла. Вікна від підлоги до стелі призначені для наповнення модерністських будівель природним світлом. Так звані «навісні стіни» також є загальною рисою модерністських будівель. Ці неструктурні зовнішні стіни дозволяють зробити весь фасад будівлі зі скла.</li>
+		<li>Плоскі дахи. Низькі горизонтальні дахи та широкі звиси є характерною рисою багатьох сучасних будинків середини століття.</li>
+		<li>Відкриті плани поверхів. Фуиурістичні будівлі рідко містять конструкції, які не вважаються важливими для функціональності будівлі. Результатом є великі відкриті житлові простори.</li>
+		<li>Сучасні матеріали. Сучасні будівельні матеріали, такі як сталь, залізо, бетонні блоки та скло, роблять можливим модерністський дизайн.</li>
+
+	</ul>
+	</p>
+	<p class="links-p">
+		<br>
+	<a href="www.michaelzingraf.com/en/group/blog/architecture/discovering-futuristic-architecture"> <br> Джерело <br>What is futuristic architecture? | Michaël Zingraf (michaelzingraf.com)</a>
+</p> 
+	
+</article>
+       </div><!-- photo --> <!-- slider -->
+       			<div class="box-4">
+       			<div class="slider">	
+			       	<div><img src="images/arch-styles/futurism/img-mar-bay-sands-1.jpg" title="Марина Бей Сендс (англ. Marina Bay Sands) готель і казино -  Сінгапур, Сінгапур"></div>
+			        <div><img src="images/arch-styles/futurism/img-aeroport.jpg" title="Міжнародний аеропорт Нью-Йорка імені Джона Кеннеді - Нью-Йорк, США"></div>
+			        <div><img src="images/arch-styles/futurism/img-bookshop-1.jpg" title="Книжковий магазин і бібліотека - Янчжоу, Китай"></div>
+			        <div><img src="images/arch-styles/futurism/img-libr-1.jpg" title="Бібліотека Гейзеля Каліфорнійського університету (англ. Geisel Library) - Сан-Дієго, США"></div>
+			        <div><img src="images/arch-styles/futurism/img-museum-valensia-1.jpg" title="Місто мистецтв і наук - архітектурний комплекс (ісп. Ciudad de las Artes y las Ciencias) - Валенсія, Іспанія"></div>
+			        <div><img src="images/arch-styles/futurism/img-sein-mus.jpg" title="Центр музики та виконавських мистецтв (фр.La Seine Musicale) - Париж, Франція"></div>
+        		</div>
+
+       			</div>
+	   				
+
+
+
+	</div>
+
+			
+
+
+</body>
+
+</html>
